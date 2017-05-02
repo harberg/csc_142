@@ -17,14 +17,17 @@ public class H4_nicholas {
       
       digits = scan.nextInt();
       s = Integer.toString(digits);
-      lastDigit = Character.getNumericValue(s.charAt(6));
-      
+      //lastDigit = Character.getNumericValue(s.charAt(6));
+      System.out.println("String is: " + s + ".");
       for(int i = 0; i < s.length(); i++) {
          curTotal += (i * i);
       }
-      compNum = curTotal % 10;
-      pass = lastDigit == compNum ? "valid" : "invalid";
       
-      System.out.println("The ID you entered is " + pass + ".");
+      compNum = curTotal % 10;
+      // pass = lastDigit == compNum ? "valid" : "invalid";
+      
+      System.out.println("curTotal is: " + curTotal + ".");
+      // System.out.println("Last Digit is: " + lastDigit + ".");
+      // System.out.println("The ID you entered is " + pass + ".");
    }
 }
