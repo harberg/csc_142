@@ -1,0 +1,4 @@
+Betty: [90, 15, 10, 10] = ISTJ
+Snoopy: [30, 45, 30, 70] = ESTP
+Ben Bunny: [20, 45, 15, 55] = ESTP
+David: [100, 6, 20, 6] = ISTJ
